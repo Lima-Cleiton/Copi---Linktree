@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    color: #313131;
+    background: linear-gradient(45deg, #DB49C4 0%, #BC3EDB 100%);
+}
+main{
+    width: 580px;
+    margin: 0 auto;
+    
+}
+header{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+h1{
+ 
+    margin-bottom: 35px;
+    color: #313131
+}
+nav{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.links{
+    text-decoration: none;
+    color: whitesmoke;
+    align-items: center;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    line-height: 1;
+    word-spacing: 5px;
+    background-color: #DB49C4;
+    opacity : 0.5;
+    font-weight: 600;
+}
+.links:hover{
+/* hover é um seletor que significa passar o mouse em cima, mudando a cor de fundo e da letras */
+    background-color: whitesmoke;
+    color: #DB49C4;
+}
+div{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+#espaço{
+    width: 224px;
+    justify-content: space-between;
+}
+a{
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+.instagram{
+    font-size: 1.9em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.instagram:hover{
+    opacity : 0.5;
+}
+.whatsapp{
+    font-size: 1.9em;
+    color:#34af23;
+}
+.whatsapp:hover{
+    opacity : 0.5;
+}
